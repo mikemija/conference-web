@@ -1,0 +1,401 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: top;
+}
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+ 
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+ 
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
+
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+          
+        /* Styling section, giving background
+            image and dimensions */
+        section {
+            width: 100%;
+            height: 100vh;
+            background:
+ url('https://media.geeksforgeeks.org/wp-content/uploads/20210408155049/gfg9.png');
+            background-size: cover;
+        }
+          
+        /* Styling the left floating section */
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect 
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+          
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+          
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+
+    
+*
+  
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+}
+  
+.heading {
+    color: green;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: grey;
+}
+
